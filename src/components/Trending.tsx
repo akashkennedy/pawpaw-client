@@ -7,13 +7,13 @@ const Trending = () => {
     "golizard",
   ];
   return (
-    <section className="border-4 border-primary rounded-pill m-5 p-3 w-max">
+    <section className="border-4 border-primary rounded-pill m-3 p-3 w-max">
       <div>
-        <h2 className="text-3xl font-semibold">Trending#</h2>
-        <p className="font-medium text-lg text-gray-800">
+        <h2 className="text-2xl font-semibold">Trending#</h2>
+        <p className="font-medium text-md text-gray-800">
           Trending Topics of the Day
         </p>
-        <ol className="list-decimal list-inside p-2 space-y-1">
+        <ol className="list-decimal list-inside p-1 space-y-1">
           {trendingTopics.map((topic: string, index: number) => (
             <li
               key={index}

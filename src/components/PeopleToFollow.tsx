@@ -20,9 +20,9 @@ const PeopleToFollow = () => {
     },
   ];
   return (
-    <section className="border-4 w-max border-primary rounded-pill m-5 p-3">
-      <h2 className="text-3xl font-semibold">People to Follow</h2>
-      <p className="font-medium text-lg text-gray-800">
+    <section className="border-4 w-max border-primary rounded-pill m-3 p-3">
+      <h2 className="text-2xl font-semibold">People to Follow</h2>
+      <p className="font-medium text-md text-gray-800">
         Follow People with Similar Interests
       </p>
       <article className="space-y-2 m-3">

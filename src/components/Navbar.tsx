@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="container flex items-center justify-between rounded-pill m-5 mx-auto border-primary border-4 px-3 py-1">
+    <nav className="container flex items-center justify-between rounded-pill m-3 mx-auto border-primary border-4 px-3 py-1">
       <div>
         <div className="border-primary border-2 rounded-pill flex p-1">
           <BiSearchAlt className="size-6" />

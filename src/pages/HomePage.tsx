@@ -1,6 +1,7 @@
 import Trending from "../components/Trending";
 import PeopleToFollow from "../components/PeopleToFollow";
 import Tweetbox from "../components/Tweetbox";
+import Feeds from "../components/Feeds";
 
 const HomePage = () => {
   return (
@@ -9,7 +10,10 @@ const HomePage = () => {
         <Trending />
         <PeopleToFollow />
       </aside>
-      <Tweetbox />
+      <div>
+        <Tweetbox />
+        <Feeds />
+      </div>
     </main>
   );
 };

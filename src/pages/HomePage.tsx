@@ -2,6 +2,7 @@ import Trending from "../components/Trending";
 import PeopleToFollow from "../components/PeopleToFollow";
 import Tweetbox from "../components/Tweetbox";
 import Feeds from "../components/Feeds";
+import Profile from "../components/Profile";
 
 const HomePage = () => {
   return (
@@ -10,9 +11,12 @@ const HomePage = () => {
         <Trending />
         <PeopleToFollow />
       </aside>
-      <div>
+      <div className="flex-1">
         <Tweetbox />
         <Feeds />
+      </div>
+      <div>
+        <Profile />
       </div>
     </main>
   );

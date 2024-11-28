@@ -21,6 +21,12 @@ const Feeds = () => {
       profilePic: "/lizard.jpg",
       body: "It really hot out here in Sahara",
     },
+    {
+      name: "Emma",
+      userName: "emmahere",
+      profilePic: "/hamster.jpg",
+      body: "Hello, How are you Everyone",
+    },
   ];
 
   return (
